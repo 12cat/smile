@@ -1,18 +1,19 @@
+'use strict';
+
 var express = require('express');
 
 var app = express();
 
-app.set('port', process.env.PORT || 5000);  // Port number
-app.set('views', __dirname +'/view');       // path
+app.set('port', process.env.PORT || 5000);	// port number
+app.set('views', __dirname +'/views');      // path
+app.set('view engine', 'pug');              // file type
 
 app.use(express.static(__dirname));
+app.use(require('body-parser')());          // req.body.name
+app.use(require('cookie-parser')());        // res.cookie
 
-app.get('/', function(req, res) {
-    res.write('<h1>Node.js</h1>');
-    res.end('<p>Hello Node</p>');
-});
+require('./lib/router').router(app);		// router
 
 app.listen(app.get('port'), function() {    // listen
-    console.log(' url：localhost:'+ app.get('port'));
-    console.log('stop：Ctrl + c');
+    console.log('url：localhost:'+ app.get('port'));
 });

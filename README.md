@@ -14,21 +14,24 @@
 ``` javaScript
     // app.js
     var express = require('express');
+
     var app = express();
 
-    app.set('port', process.env.PORT || 5000);  // Port number
-    app.set('views', __dirname +'/view');       // path
+    app.set('port', process.env.PORT || 5000);  // port number
+    app.set('views', __dirname +'/views');      // path
+    app.set('view engine', 'pug');              // file type
 
     app.use(express.static(__dirname));
+    app.use(require('body-parser')());          // req.body.name
+    app.use(require('cookie-parser')());        // res.cookie
 
-    app.get('/', function(req, res) {
+    app.get('/index', function(req, res) {
         res.write('<h1>Node.js</h1>');
         res.end('<p>Hello Node</p>');
     });
 
     app.listen(app.get('port'), function() {    // listen
-        console.log(' url：localhost:'+ app.get('port'));
-        console.log('stop：Ctrl + c');
+        console.log('url：localhost:'+ app.get('port'));
     });
 ```
 
@@ -38,7 +41,7 @@
 - 使用：
 ``` javaScript
     // app.js
-    app.use(require('body-parser')());
+    app.use(require('body-parser')());          // req.body.name
 
     app.post('/name', function(req, res) {
         var name = req.body.name,
@@ -51,10 +54,12 @@
 - 安装：`$ npm install cookie-parser --save-dev`
 - - 使用：
 ``` javaScript
-    app.use(require('cookie-parser')());
+    // app.js
+    app.use(require('cookie-parser')());        // cookie
 
     app.get('/index', function(req, res) {
         res.cookie('token', '666', {maxAge: 30*60*1000});
+        // res.clearCookie('token');
         res.end('<p>Hello Node</p>');
     });
 ```
@@ -64,7 +69,23 @@
 - 安装：`$ npm install pug --save-dev`
 - - 使用：
 ``` javaScript
+    // app.js
+    app.set('views', __dirname +'/view');       // path
+    app.set('view engine', 'pug');              // file type
 
+    app.get('/index', function(req, res) {
+        var name = req.query.name;
+        res.render('home/index', {'name':name});
+    });
+```
+``` pug
+    doctype html
+
+    html(lang="en")
+        head
+            title title
+        body
+            h3 #{name}
 ```
 
 ### 模块封装 exports

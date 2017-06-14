@@ -5,7 +5,10 @@
   "main": "app.js",
   "dependencies": {},
   "devDependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2",
     "supervisor": "^0.12.0"
   },
   "scripts": {
