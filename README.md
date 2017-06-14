@@ -38,8 +38,12 @@
 - 使用：
 ``` javaScript
     // app.js
+    app.use(require('body-parser')());
 
-
+    app.post('/name', function(req, res) {
+        var name = req.body.name,
+        return res.send({'success':1, 'name':name});
+    });
 ```
 
 ### cookie-parser
@@ -47,7 +51,12 @@
 - 安装：`$ npm install cookie-parser --save-dev`
 - - 使用：
 ``` javaScript
+    app.use(require('cookie-parser')());
 
+    app.get('/index', function(req, res) {
+        res.cookie('token', '666', {maxAge: 30*60*1000});
+        res.end('<p>Hello Node</p>');
+    });
 ```
 
 ### pug 模版
