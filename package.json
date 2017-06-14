@@ -1,0 +1,27 @@
+{
+  "name": "smile",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.15.3",
+    "supervisor": "^0.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12cat/smile.git"
+  },
+  "keywords": [
+    "smile"
+  ],
+  "author": "dull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/12cat/smile/issues"
+  },
+  "homepage": "https://github.com/12cat/smile#readme"
+}
