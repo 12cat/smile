@@ -52,7 +52,7 @@
 ### cookie-parser
 
 - 安装：`$ npm install cookie-parser --save-dev`
-- - 使用：
+- 使用：
 ``` javaScript
     // app.js
     app.use(require('cookie-parser')());        // cookie
@@ -67,7 +67,7 @@
 ### pug 模版
 
 - 安装：`$ npm install pug --save-dev`
-- - 使用：
+- 使用：
 ``` javaScript
     // app.js
     app.set('views', __dirname +'/view');       // path
@@ -86,6 +86,44 @@
             title title
         body
             h3 #{name}
+```
+
+### 请求示例
+
+- 安装：`$ npm install log4js --save-dev`
+- 使用：
+``` javaScript
+    // configfile.json
+    {
+      "appenders": [
+        {
+            "type": "console"
+        },
+        {
+            "type": "file",
+            "filename": "logs/cheese-configfile.log",
+            "category": "cheese",
+            "maxLogSize": 1024
+        }
+      ]
+    }
+```
+
+``` javaScript
+    // app.js
+    var log4js = require('log4js');
+    log4js.configure('configfile.json');
+
+    var logger = log4js.getLogger('cheese');
+    logger.setLevel('ERROR');
+    // trace, debug, info, warn, error, fatal
+
+    logger.trace('Entering cheese testing');
+    logger.debug('Got cheese.');
+    logger.info('Cheese is Gouda.');
+    logger.warn('Cheese is quite smelly.');
+    logger.error('Cheese is too ripe!');
+    logger.fatal('Cheese was breeding ground for listeria.');
 ```
 
 ### 模块封装 exports
