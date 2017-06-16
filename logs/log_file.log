@@ -1,0 +1,30 @@
+[2017-06-16 17:48:00.392] [TRACE] logger - Entering cheese testing
+[2017-06-16 17:48:00.396] [DEBUG] logger - Got cheese.
+[2017-06-16 17:48:00.397] [INFO] logger - Cheese is Gouda.
+[2017-06-16 17:48:00.397] [WARN] logger - Cheese is quite smelly.
+[2017-06-16 17:48:00.397] [ERROR] logger - Cheese is too ripe!
+[2017-06-16 17:48:00.398] [FATAL] logger - Cheese was breeding ground for listeria.
+[2017-06-16 17:50:38.837] [TRACE] cheese - Entering cheese testing
+[2017-06-16 17:50:38.841] [DEBUG] cheese - Got cheese.
+[2017-06-16 17:50:38.841] [INFO] cheese - Cheese is Gouda.
+[2017-06-16 17:50:38.841] [WARN] cheese - Cheese is quite smelly.
+[2017-06-16 17:50:38.842] [ERROR] cheese - Cheese is too ripe!
+[2017-06-16 17:50:38.842] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2017-06-16 17:53:40.554] [TRACE] cheese - Entering cheese testing
+[2017-06-16 17:53:40.559] [DEBUG] cheese - Got cheese.
+[2017-06-16 17:53:40.559] [INFO] cheese - Cheese is Gouda.
+[2017-06-16 17:53:40.559] [WARN] cheese - Cheese is quite smelly.
+[2017-06-16 17:53:40.560] [ERROR] cheese - Cheese is too ripe!
+[2017-06-16 17:53:40.560] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2017-06-16 17:54:02.502] [TRACE] cheese - Entering cheese testing
+[2017-06-16 17:54:02.506] [DEBUG] cheese - Got cheese.
+[2017-06-16 17:54:02.507] [INFO] cheese - Cheese is Gouda.
+[2017-06-16 17:54:02.507] [WARN] cheese - Cheese is quite smelly.
+[2017-06-16 17:54:02.507] [ERROR] cheese - Cheese is too ripe!
+[2017-06-16 17:54:02.507] [FATAL] cheese - Cheese was breeding ground for listeria.
+[2017-06-16 17:54:59.376] [TRACE] logger - Entering cheese testing
+[2017-06-16 17:54:59.381] [DEBUG] logger - Got cheese.
+[2017-06-16 17:54:59.381] [INFO] logger - Cheese is Gouda.
+[2017-06-16 17:54:59.381] [WARN] logger - Cheese is quite smelly.
+[2017-06-16 17:54:59.382] [ERROR] logger - Cheese is too ripe!
+[2017-06-16 17:54:59.382] [FATAL] logger - Cheese was breeding ground for listeria.

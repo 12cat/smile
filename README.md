@@ -88,7 +88,7 @@
             h3 #{name}
 ```
 
-### 请求示例
+### log日志
 
 - 安装：`$ npm install log4js --save-dev`
 - 使用：
