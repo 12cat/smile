@@ -118,9 +118,19 @@
         },
         {
             "type": "file",
-            "filename": "logs/cheese-configfile.log",
+            "filename": "logs/info.log",
             "category": "cheese",
             "maxLogSize": 1024
+        },
+        {
+            "type": "logLevelFilter",
+            "level": "ERROR",
+            "appender": {
+                "type": "file",
+                "filename": "logs/error.log",
+                "maxLogSize": 1048576,
+                "backups": 100
+            }
         }
       ]
     }
