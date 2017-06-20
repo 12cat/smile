@@ -1,0 +1,273 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	min-width: 1366px;
+	height: 100%;
+	background-color: #e8e8e8;
+}
+li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+}
+table {
+	width:100%;
+}
+td, th {
+	text-align: center;
+	border: 1px solid #ccc;
+}
+th {
+	font-size: 14px;
+	line-height: 30px;
+	color: #3399ff;
+}
+td {
+	font-size: 12px;
+	line-height: 30px;
+}
+td span.click {
+	color: #3399ff;
+	cursor: pointer;
+}
+
+
+/* login */
+.login-box {
+	position: absolute;
+	width: 450px;
+	top: 30%;
+	left: 50%;
+	margin-left: -225px;
+	padding: 50px;
+	background-color: #fff;
+	box-shadow: 0 0 20px #ccc;
+}
+.login-title {
+	text-align: center;
+	font-size: 24px;
+	line-height: 35px;
+	text-shadow: 0 2px 2px #000;
+}
+
+
+/* header */
+.header {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	background-color: #3399ff;
+}
+.header-title {
+	float: left;
+	margin-left: 30px;
+	font-size: 20px;
+	line-height: 40px;
+	color: #fff;
+}
+.header-content {
+	float: right;
+	margin-right: 30px;
+}
+.header-content span {
+	font-size: 12px;
+	line-height: 40px;
+	color: #fff;
+}
+
+/* body */
+.body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	min-height: 700px;
+}
+/* footer */
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	font-size: 12px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	background-color: #3399ff;
+}
+
+/* menu */
+.menu {
+	position: fixed;
+	width: 240px;
+	height: 600px;
+	top: 50px;
+	left: 0;
+	border-radius: 0 5px 5px 0;
+	background-color: #fff;
+}
+.menu-parent {
+	margin: 10px;
+}
+.menu-parent > li {
+
+}
+.menu-title {
+	margin-bottom: 1px;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	border-radius: 5px;
+	color: #3399ff;
+	cursor: pointer;
+}
+li.active .menu-title {
+	background-color: #3399ff;
+	color: #fff;
+}
+.menu-title:hover {
+	text-shadow: 0 0 3px #3399ff;
+}
+.menu-child {
+	margin-left: 15px;
+	height: 0;
+	overflow: hidden;
+	-moz-transition: height .7s;
+}
+li.active .menu-child {
+	height: auto;
+}
+.menu-child > li {
+	padding-left: 10px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #ccc;
+	cursor: pointer;
+}
+.menu-child > li.active,
+.menu-child > li:hover {
+	color: #3399ff;
+}
+
+/* content */
+.content {
+	margin-left: 250px;
+}
+.content .row {
+	margin-right: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+
+/* 表单样式 */
+.form-row {
+	margin-top: 15px;
+}
+.form-row label {
+	display: inline-block;
+	min-width: 90px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: right;
+}
+.form-row span.text {
+	display: inline-block;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: right;
+}
+.form-row input {
+	display: inline-block;
+	min-width: 178px;
+	height: 28px;
+	font-size: 12px;
+	line-height: 28px;
+	border: 1px solid #ccc;
+	text-indent: 5px;
+}
+.form-row select {
+	display: inline-block;
+	min-width: 178px;
+	height: 28px;
+	font-size: 12px;
+	line-height: 28px;
+	border: 1px solid #ccc;
+}
+.form-row span.error {
+	display: inline-block;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	color: #ff3333;
+}
+.form-row textarea {
+	resize: none;
+	width: 350px;
+	height: 120px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+/* button */
+.btn {
+	height: 30px;
+	width: 110px;
+	background: #3399ff;
+	border: none;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #3388ee;
+}
+
+
+
+
+
+/* order */
+.center {
+	text-align: center;
+}
+.pointer {
+	cursor: pointer;
+}
+
+.mar-l5 {
+	margin-left: 5px;
+}
+.mar-l15 {
+	margin-left: 15px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+/* 尺寸 */
+.w250 {
+	width: 250px;
+}
+
+/* 字体颜色 */
+.red {
+	color: #ff3333;
+}
+.blue {
+	color: #3399ff;
+}

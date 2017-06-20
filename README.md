@@ -64,6 +64,23 @@
     });
 ```
 
+### express-session
+
+- 安装：`$ npm install express-session --save-dev`
+- 使用：
+``` javaScript
+    // app.js
+    app.use(require('express-session')({        // req.session
+        'secret': '12cat',
+        'cookie': {'maxAge': 30*60*1000}        // 过期时间（毫秒）
+    }));
+
+    app.get('/index', function(req, res) {
+        req.session.token = '666';
+        res.end('<p>Hello Node</p>');
+    });
+```
+
 ### pug 模版
 
 - 安装：`$ npm install pug --save-dev`
@@ -114,9 +131,10 @@
     var log4js = require('log4js');
     log4js.configure('configfile.json');
 
-    var logger = log4js.getLogger('cheese');
-    logger.setLevel('ERROR');
-    // trace, debug, info, warn, error, fatal
+    // var logger = log4js.getLogger();
+    var logger = log4js.getLogger('cheese');    // 分类
+    // TRACE, DEBUG, INFO, WARN, ERROR, FATAL
+    logger.setLevel('ERROR');       // 对日志级别过滤
 
     logger.trace('Entering cheese testing');
     logger.debug('Got cheese.');

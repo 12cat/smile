@@ -1,30 +1,259 @@
-[2017-06-16 17:48:00.392] [TRACE] logger - Entering cheese testing
-[2017-06-16 17:48:00.396] [DEBUG] logger - Got cheese.
-[2017-06-16 17:48:00.397] [INFO] logger - Cheese is Gouda.
-[2017-06-16 17:48:00.397] [WARN] logger - Cheese is quite smelly.
-[2017-06-16 17:48:00.397] [ERROR] logger - Cheese is too ripe!
-[2017-06-16 17:48:00.398] [FATAL] logger - Cheese was breeding ground for listeria.
-[2017-06-16 17:50:38.837] [TRACE] cheese - Entering cheese testing
-[2017-06-16 17:50:38.841] [DEBUG] cheese - Got cheese.
-[2017-06-16 17:50:38.841] [INFO] cheese - Cheese is Gouda.
-[2017-06-16 17:50:38.841] [WARN] cheese - Cheese is quite smelly.
-[2017-06-16 17:50:38.842] [ERROR] cheese - Cheese is too ripe!
-[2017-06-16 17:50:38.842] [FATAL] cheese - Cheese was breeding ground for listeria.
-[2017-06-16 17:53:40.554] [TRACE] cheese - Entering cheese testing
-[2017-06-16 17:53:40.559] [DEBUG] cheese - Got cheese.
-[2017-06-16 17:53:40.559] [INFO] cheese - Cheese is Gouda.
-[2017-06-16 17:53:40.559] [WARN] cheese - Cheese is quite smelly.
-[2017-06-16 17:53:40.560] [ERROR] cheese - Cheese is too ripe!
-[2017-06-16 17:53:40.560] [FATAL] cheese - Cheese was breeding ground for listeria.
-[2017-06-16 17:54:02.502] [TRACE] cheese - Entering cheese testing
-[2017-06-16 17:54:02.506] [DEBUG] cheese - Got cheese.
-[2017-06-16 17:54:02.507] [INFO] cheese - Cheese is Gouda.
-[2017-06-16 17:54:02.507] [WARN] cheese - Cheese is quite smelly.
-[2017-06-16 17:54:02.507] [ERROR] cheese - Cheese is too ripe!
-[2017-06-16 17:54:02.507] [FATAL] cheese - Cheese was breeding ground for listeria.
-[2017-06-16 17:54:59.376] [TRACE] logger - Entering cheese testing
-[2017-06-16 17:54:59.381] [DEBUG] logger - Got cheese.
-[2017-06-16 17:54:59.381] [INFO] logger - Cheese is Gouda.
-[2017-06-16 17:54:59.381] [WARN] logger - Cheese is quite smelly.
-[2017-06-16 17:54:59.382] [ERROR] logger - Cheese is too ripe!
-[2017-06-16 17:54:59.382] [FATAL] logger - Cheese was breeding ground for listeria.
+[2017-06-19 17:42:35.528] [INFO] console - url：localhost:5000
+[2017-06-19 19:24:58.138] [INFO] console - undefined
+[2017-06-19 19:24:58.156] [INFO] console - url：localhost:5000
+[2017-06-19 19:25:12.973] [ERROR] console - Error: Failed to lookup view "login/login" in views directory "D:\run\demo\smile/views"
+    at EventEmitter.render (D:\run\demo\smile\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\run\demo\smile\node_modules\express\lib\response.js:971:7)
+    at D:\run\demo\smile\lib\router\login\login.js:17:8
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\run\demo\smile\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at D:\run\demo\smile\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\run\demo\smile\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\index.js:275:10)
+[2017-06-19 19:25:12.977] [INFO] [default] - ::1 - - "GET / HTTP/1.1" 500 1239 "" "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+[2017-06-19 19:26:55.198] [INFO] console - undefined
+[2017-06-19 19:26:55.207] [INFO] console - url：localhost:5000
+[2017-06-19 19:27:23.264] [INFO] console - { [Function]
+  domain: undefined,
+  _events: { mount: [Function: onmount] },
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function],
+  bind: [Function],
+  checkout: [Function],
+  connect: [Function],
+  copy: [Function],
+  delete: [Function],
+  get: [Function],
+  head: [Function],
+  link: [Function],
+  lock: [Function],
+  'm-search': [Function],
+  merge: [Function],
+  mkactivity: [Function],
+  mkcalendar: [Function],
+  mkcol: [Function],
+  move: [Function],
+  notify: [Function],
+  options: [Function],
+  patch: [Function],
+  post: [Function],
+  propfind: [Function],
+  proppatch: [Function],
+  purge: [Function],
+  put: [Function],
+  rebind: [Function],
+  report: [Function],
+  search: [Function],
+  subscribe: [Function],
+  trace: [Function],
+  unbind: [Function],
+  unlink: [Function],
+  unlock: [Function],
+  unsubscribe: [Function],
+  all: [Function: all],
+  del: [Function],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular] },
+  response: ServerResponse { app: [Circular] },
+  cache: {},
+  engines: {},
+  settings: 
+   { 'x-powered-by': true,
+     etag: 'weak',
+     'etag fn': [Function: wetag],
+     env: 'development',
+     'query parser': 'extended',
+     'query parser fn': [Function: parseExtendedQueryString],
+     'subdomain offset': 2,
+     'trust proxy': false,
+     'trust proxy fn': [Function: trustNone],
+     view: [Function: View],
+     views: 'D:\\run\\demo\\smile/views',
+     'jsonp callback name': 'callback',
+     port: 5000,
+     'view engine': 'pug' },
+  _eventsCount: 1,
+  locals: 
+   { settings: 
+      { 'x-powered-by': true,
+        etag: 'weak',
+        'etag fn': [Function: wetag],
+        env: 'development',
+        'query parser': 'extended',
+        'query parser fn': [Function: parseExtendedQueryString],
+        'subdomain offset': 2,
+        'trust proxy': false,
+        'trust proxy fn': [Function: trustNone],
+        view: [Function: View],
+        views: 'D:\\run\\demo\\smile/views',
+        'jsonp callback name': 'callback',
+        port: 5000,
+        'view engine': 'pug' } },
+  mountpath: '/',
+  _router: 
+   { [Function: router]
+     params: {},
+     _params: [],
+     caseSensitive: false,
+     mergeParams: undefined,
+     strict: false,
+     stack: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] } }
+[2017-06-19 19:27:23.296] [INFO] console - url：localhost:5000
+[2017-06-19 19:33:51.900] [INFO] console - url：localhost:5000
+[2017-06-19 19:33:58.484] [ERROR] console - Error: Failed to lookup view "login/login" in views directory "D:\run\demo\smile/views"
+    at EventEmitter.render (D:\run\demo\smile\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\run\demo\smile\node_modules\express\lib\response.js:971:7)
+    at D:\run\demo\smile\lib\router\login\login.js:17:8
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\run\demo\smile\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at D:\run\demo\smile\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\run\demo\smile\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\index.js:275:10)
+[2017-06-19 19:34:32.957] [INFO] console - url：localhost:5000
+[2017-06-19 19:34:33.966] [ERROR] console - Error: Failed to lookup view "login/login" in views directory "D:\run\demo\smile/static/views"
+    at EventEmitter.render (D:\run\demo\smile\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (D:\run\demo\smile\node_modules\express\lib\response.js:971:7)
+    at D:\run\demo\smile\lib\router\login\login.js:17:8
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\run\demo\smile\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at D:\run\demo\smile\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\run\demo\smile\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\index.js:275:10)
+[2017-06-19 19:34:54.598] [INFO] console - url：localhost:5000
+[2017-06-19 19:36:09.299] [INFO] console - url：localhost:5000
+[2017-06-19 19:37:55.558] [INFO] console - url：localhost:5000
+[2017-06-19 19:39:06.992] [INFO] console - url：localhost:5000
+[2017-06-19 19:41:14.561] [INFO] console - url：localhost:5000
+[2017-06-19 19:45:36.714] [INFO] console - url：localhost:5000
+[2017-06-19 19:46:02.325] [INFO] console - url：localhost:5000
+[2017-06-19 19:50:00.585] [INFO] console - url：localhost:5000
+[2017-06-19 19:59:52.311] [INFO] console - url：localhost:5000
+[2017-06-19 20:00:41.825] [INFO] console - url：localhost:5000
+[2017-06-19 20:01:36.022] [INFO] console - url：localhost:5000
+[2017-06-19 20:02:24.830] [INFO] console - url：localhost:5000
+[2017-06-19 20:04:15.032] [INFO] console - url：localhost:5000
+[2017-06-20 09:57:02.907] [INFO] console - url：localhost:5000
+[2017-06-20 09:59:07.427] [INFO] console - url：localhost:5000
+[2017-06-20 10:01:40.194] [INFO] console - url：localhost:5000
+[2017-06-20 10:44:46.072] [INFO] console - url：localhost:5000
+[2017-06-20 10:47:53.267] [INFO] console - url：localhost:5000
+[2017-06-20 10:48:39.130] [INFO] console - url：localhost:5000
+[2017-06-20 10:57:15.972] [INFO] console - url：localhost:5000
+[2017-06-20 10:57:50.078] [INFO] console - url：localhost:5000
+[2017-06-20 10:58:57.249] [INFO] console - url：localhost:5000
+[2017-06-20 11:01:06.409] [INFO] console - url：localhost:5000
+[2017-06-20 11:02:03.412] [INFO] console - url：localhost:5000
+[2017-06-20 11:02:52.977] [INFO] console - 123
+[2017-06-20 11:02:52.992] [INFO] console - url：localhost:5000
+[2017-06-20 11:03:13.580] [INFO] console - 123
+[2017-06-20 11:03:13.594] [INFO] console - url：localhost:5000
+[2017-06-20 11:03:49.103] [INFO] console - url：localhost:5000
+[2017-06-20 11:04:30.495] [INFO] console - 213
+[2017-06-20 11:04:30.509] [INFO] console - url：localhost:5000
+[2017-06-20 11:04:51.338] [INFO] console - 213
+[2017-06-20 11:04:51.352] [INFO] console - url：localhost:5000
+[2017-06-20 11:05:10.114] [INFO] console - url：localhost:5000
+[2017-06-20 11:06:37.842] [INFO] console - url：localhost:5000
+[2017-06-20 11:07:38.554] [INFO] console - url：localhost:5000
+[2017-06-20 11:07:42.181] [INFO] console - 123 Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-20T03:37:42.180Z,
+     originalMaxAge: 1800000,
+     httpOnly: true } }
+[2017-06-20 11:07:42.194] [INFO] console - 123 { 'connect.sid': 's:0ZHwADwxCHn4dbjrPf7voTY3C3A15Jze.6qOxbcJubT5ckRFtTVXRZlFw5faAhNHLV9Bsc+XyqQk' }
+[2017-06-20 11:08:16.393] [INFO] console - url：localhost:5000
+[2017-06-20 11:09:53.192] [INFO] console - url：localhost:5000
+[2017-06-20 11:09:55.578] [INFO] console - 111 Session {
+  cookie: 
+   { path: '/',
+     _expires: 2017-06-20T03:39:55.576Z,
+     originalMaxAge: 1800000,
+     httpOnly: true } }
+[2017-06-20 11:09:55.591] [INFO] console - 222 { 'connect.sid': 's:JPg1HecskNIl04XeL16z4UMFcSNZRDAW.h0gfvq5KTWaYZTE3v0z/OsNNVt1PGGE5ykoC8fMkQRA' }
+[2017-06-20 11:10:26.463] [INFO] console - url：localhost:5000
+[2017-06-20 11:10:29.323] [INFO] console - 111 undefined
+[2017-06-20 11:10:29.326] [INFO] console - 222 undefined
+[2017-06-20 11:14:46.125] [INFO] console - url：localhost:5000
+[2017-06-20 11:14:51.109] [INFO] console - 111 undefined
+[2017-06-20 11:14:51.111] [INFO] console - 222 undefined
+[2017-06-20 11:15:10.281] [INFO] console - 111 '1497928503671'
+[2017-06-20 11:15:10.282] [INFO] console - 222 '1497928503671'
+[2017-06-20 11:15:10.286] [ERROR] console - ReferenceError: self is not defined
+    at D:\run\demo\smile\lib\router\login\login.js:22:5
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\run\demo\smile\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\run\demo\smile\node_modules\express\lib\router\layer.js:95:5)
+    at D:\run\demo\smile\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\run\demo\smile\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\run\demo\smile\node_modules\express\lib\router\index.js:275:10)
+    at Immediate.<anonymous> (D:\run\demo\smile\node_modules\express-session\index.js:489:7)
+    at Immediate.immediate._onImmediate (timers.js:590:18)
+[2017-06-20 11:15:54.421] [INFO] console - url：localhost:5000
+[2017-06-20 11:15:56.550] [INFO] console - 111 undefined
+[2017-06-20 11:15:56.551] [INFO] console - 222 '1497928503671'
+[2017-06-20 11:16:10.358] [INFO] console - 111 '1497928566168'
+[2017-06-20 11:16:10.359] [INFO] console - 222 '1497928566168'
+[2017-06-20 11:16:10.359] [INFO] console - login !
+[2017-06-20 11:18:11.428] [INFO] console - url：localhost:5000
+[2017-06-20 11:18:13.494] [WARN] console - token is lost !
+[2017-06-20 11:18:23.003] [INFO] console - login !
+[2017-06-20 11:18:25.541] [INFO] console - login !
+[2017-06-20 11:20:46.014] [INFO] console - login !
+[2017-06-20 11:20:50.491] [INFO] console - login !
+[2017-06-20 11:21:12.743] [WARN] console - token is lost !
+[2017-06-20 11:21:12.862] [WARN] console - token is lost !
+[2017-06-20 11:21:26.103] [WARN] console - token is lost !
+[2017-06-20 11:21:26.214] [WARN] console - token is lost !
+[2017-06-20 11:21:27.597] [WARN] console - token is lost !
+[2017-06-20 11:21:27.764] [WARN] console - token is lost !
+[2017-06-20 11:21:27.977] [WARN] console - token is lost !
+[2017-06-20 11:40:35.594] [INFO] console - url：localhost:5000
+[2017-06-20 11:40:38.282] [WARN] console - token is lost !
+[2017-06-20 11:49:14.217] [WARN] console - token is lost !
+[2017-06-20 11:57:09.502] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-20 15:52:34.069] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-20 15:54:09.172] [WARN] console - token is lost !
+[2017-06-20 15:54:19.579] [WARN] console - token is lost !

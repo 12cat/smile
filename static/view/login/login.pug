@@ -1,0 +1,24 @@
+doctype html
+
+html(lang="en")
+	head
+		title login
+		link(rel="stylesheet" href="static/css/common.css")
+	body
+		.login-box
+			.login-title Login
+			.form-row#name
+				label 用户名：
+				input.w250(type="text")
+				span.error.mar-l5(style="display:none;")
+			.form-row#password
+				label 密码：
+				input.w250(type="password")
+				span.error.mar-l5(style="display:none;")
+			.form-row.center#error
+				span.error(style="display:none;")
+			.form-row.center
+				button.btn#submit 提交
+
+		script(src="static/js/plugins/jquery-1.8.3.js")
+		script(src="static/js/page/login/login.js")
