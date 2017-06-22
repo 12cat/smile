@@ -24,22 +24,22 @@ Rifle.prototype = {
 		// 请求缓存是否包含参数
 		var key = option.urlFlag ? option.url+JSON.stringify(option.param) : option.url;
 		// 定位目标
-		!this.bodycount[key] && (this.bodycount[key]={'clip':false,'result':{},'actionNum':0,'launchNum':0});
+		!this.bodycount[key] && (this.bodycount[key]={'clip':false,'result':null,'actionNum':0,'launchNum':0});
 		this.bodycount[key].actionNum++;
 		// 是否有效目标
 		if (this.bodycount[key].clip) {
 			return ;
 		}
 		// 是否启用缓存
-		if (option.cache) {
-			option.callback(this.bodycount.result[key]);
+		if (option.cache && this.bodycount[key].result) {
+			option.callback(this.bodycount[key].result);
 		} else {
 			this.bodycount[key].clip = true;
 			this.bodycount[key].launchNum++;
-			this.launch(this.bodycount[key], option);
+			this.launch(key, this.bodycount[key], option);
 		}
 	},
-	launch: function(unit, option) {	// 射击
+	launch: function(key, unit, option) {	// 射击
 		$.ajax({
 			type: option.type,
 			url: option.url,
@@ -49,7 +49,7 @@ Rifle.prototype = {
 			},
 			success: function(result, textStatus) {
 				unit.result = result;
-				option.callback(request);
+				option.callback(result);
 			},
 			complete: function(XMLHttpRequest, textStatus) {
 				unit.clip = false;

@@ -1,0 +1,70 @@
+doctype html
+
+html(lang="en")
+	head
+		title table
+		link(rel="icon" href="static/img/orc.ico" type="img/x-icon")
+		link(rel="stylesheet" href="static/css/common.css")
+	body
+		.header
+			.header-title WELL COME TO MY WORLD !
+			.header-content
+				span 欢迎&nbsp;
+				span#admin #{name}&nbsp;
+				span#logout.pointer 退出
+		.body
+			.menu
+			.content
+				.row
+					.form-row
+						label 种族：
+						select#race
+							option(value="") 全部
+							option(value="暗夜精灵") 暗夜精灵
+							option(value="不死族") 不死族
+							option(value="兽族") 兽族
+							option(value="人族") 人族
+						label 攻击类型：
+						select#type
+							option(value="") 全部
+							option(value="无") 无
+							option(value="普通") 普通
+							option(value="穿刺") 穿刺
+							option(value="攻城") 攻城
+							option(value="魔法") 魔法	
+							option(value="英雄") 英雄
+					.form-row
+						label 护甲类型：
+						select#armor
+							option(value="") 全部
+							option(value="无甲") 无甲
+							option(value="轻甲") 轻甲
+							option(value="中甲") 中甲
+							option(value="重甲") 重甲
+							option(value="城墙") 城墙
+							option(value="英雄") 英雄
+						label 单位类型：
+						select#position
+							option(value="") 全部
+							option(value="普通") 普通
+							option(value="英雄") 英雄
+					.form-row
+						label
+						button.btn#query 查询
+					.form-row
+						span.right
+							span.text 共&nbsp;
+							span.text.blue#num
+							span.text &nbsp;条
+						table
+							thead
+								tr
+									th 单位
+									th 种族
+									th 攻击类型
+									th 护甲类型
+									th 单位类型
+							tbody#dataTable
+	script(src="static/js/plugins/jquery-1.8.3.js")
+	script(src="static/js/plugins/rifle.js")
+	script(src="static/js/page/home/table.js")

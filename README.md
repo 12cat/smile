@@ -154,6 +154,60 @@
     logger.fatal('Cheese was breeding ground for listeria.');
 ```
 
+### 异步流程
+
+- 安装：`$ npm install async --save-dev`
+
+> 1. series(tasks, [callback]) （多个函数依次执行，之间没有数据交换）
+
+``` javaScript
+    var async = require('async');
+
+    async.series([
+        function(cb) {
+            // ...
+        },
+        function(cb) {
+            // ...
+        },
+        function(cb) {
+            // ...
+        }
+    ], function(err, values) {
+       // do somethig with the err or values v1/v2/v3
+    });
+```
+
+> 2. parallel(tasks, [callback]) （多个函数并行执行）
+
+``` javaScript
+    var async = require('async');
+
+    async.parallel([ 
+        function(cb) { t.fire('a400', cb, 400) }, 
+        function(cb) { t.fire('a200', cb, 200) }, 
+        function(cb) { t.fire('a300', cb, 300) } 
+    ], function (err, results) { 
+        log('1.1 err: ', err);          // -> undefined 
+        log('1.1 results: ', results);  // ->[ 'a400', 'a200', 'a300' ] 
+    });
+```
+
+> 3. 其它
+
+``` javaScript
+    var async = require(‘async’)
+
+    // 3. waterfall(tasks, [callback]) （多个函数依次执行，且前一个的输出为后一个的输入）
+    // 4. auto(tasks, [callback]) （多个函数有依赖关系，有的并行执行，有的依次执行）
+    // 5. whilst(test, fn, callback)（用可于异步调用的while）
+    // 6. until(test, fn, callback) （与while相似，但判断条件相反）
+    // 7. queue （可设定worker数量的队列）
+    // 8. iterator(tasks) （将几个函数包装为iterator）
+    // 9. apply(function, arguments..) （给函数预绑定参数）
+    // 10. nextTick(callback) （在nodejs与浏览器两边行为一致）
+```
+
 ### 模块封装 exports
 
 > 1 封装方法

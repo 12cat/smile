@@ -233,6 +233,12 @@ li.active .menu-child {
 	background-color: #3388ee;
 }
 
+.link {
+	font-size: 12px;
+	color: #3399ff;
+	cursor: pointer;
+}
+
 
 
 
@@ -250,6 +256,9 @@ li.active .menu-child {
 }
 .mar-l15 {
 	margin-left: 15px;
+}
+.mar-l120 {
+	margin-left: 120px;
 }
 
 .left {

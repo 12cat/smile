@@ -2,24 +2,24 @@
 
 $(function(){
 
-	var Login = function() {
+	var Register = function() {
 		this.param = {};
 
 		this.init();
 	};
-	Login.prototype = {
+	Register.prototype = {
 
 		init: function() {
 			var self = this;
 
 			$('#submit').click(function() {
-				self.login();
+				self.register();
 			});
 			$('html').keydown(function(event) {
 				event.keyCode===13 && $('#submit').click();
 			});
-			$('#register').click(function() {
-				location.href = '/register';
+			$('#login').click(function() {
+				location.href = '/login';
 			});
 		},
 		getParam: function() {
@@ -34,20 +34,28 @@ $(function(){
 				return false;
 			}
 			if (!this.param.password) {
-				$('#password .error').text('请输入密码！').show();
+				$('#password .error').text('请输入用户密码！').show();
+				return false;
+			}
+			if (!$('#confirm input').val()) {
+				$('#confirm .error').text('请输入确认密码！').show();
+				return false;
+			}
+			if ($('#confirm input').val() !== this.param.password) {
+				$('#password .error').text('密码输入不一致！').show();
 				return false;
 			}
 			return true;
 		},
-		login: function() {
+		register: function() {
 			var self = this;
 			self.getParam();
 			if (self.checkParam()) {
-				$.post('/request/login/login', self.param, function(result) {
-					if (result.success === 1) {
-						location.href = result.url || '/home';
+				$.post('/request/login/register', self.param, function(result) {
+					if (result.success === 0) {
+						$('#error .error').text(result.data).show();
 					} else {
-						$('#error .error').text('用户名或密码错误！').show();
+						location.href = '/login';
 					}
 				});
 			}
@@ -55,7 +63,5 @@ $(function(){
 
 	};
 
-	
-	var login = new Login();
-	
+	var login = new Register();
 });

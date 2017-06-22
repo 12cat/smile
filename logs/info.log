@@ -5,3 +5,109 @@
 [2017-06-21 16:53:07.336] [INFO] console - WELL COME TO：localhost:5000
 [2017-06-21 16:53:33.892] [WARN] console - token is lost !
 [2017-06-21 16:54:16.549] [WARN] console - token is lost !
+[2017-06-22 14:22:28.701] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 14:22:35.897] [WARN] console - token is lost !
+[2017-06-22 16:07:12.254] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:07:15.380] [WARN] console - token is lost !
+[2017-06-22 16:12:46.689] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:12:48.483] [WARN] console - token is lost !
+[2017-06-22 16:13:04.695] [WARN] console - token is lost !
+[2017-06-22 16:14:42.693] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:14:44.424] [WARN] console - token is lost !
+[2017-06-22 16:14:54.341] [WARN] console - token is lost !
+[2017-06-22 16:16:59.441] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:31:18.898] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:31:19.121] [INFO] console - 111 { username: '12cat', password: '3.14' }
+[2017-06-22 16:31:19.138] [INFO] console - 222 false
+[2017-06-22 16:32:10.126] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:32:17.292] [INFO] console - 111 { username: '12cat', password: '3.14' }
+[2017-06-22 16:32:17.309] [INFO] console - 222 false
+[2017-06-22 16:32:35.261] [INFO] console - 111 { username: '12cat1', password: '3.14' }
+[2017-06-22 16:32:35.279] [INFO] console - 222 true
+[2017-06-22 16:34:41.306] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:34:59.202] [INFO] console - 111 { username: '12cat', password: '3.14' }
+[2017-06-22 16:34:59.220] [INFO] console - 222 false
+[2017-06-22 16:35:01.893] [INFO] console - 111 { username: '12cat1', password: '3.14' }
+[2017-06-22 16:35:01.895] [INFO] console - 222 true
+[2017-06-22 16:35:01.897] [INFO] console - 333 { success: 1, data: '添加用户成功！' }
+[2017-06-22 16:35:01.949] [WARN] console - token is lost !
+[2017-06-22 16:38:26.911] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:38:43.735] [WARN] console - token is lost !
+[2017-06-22 16:40:19.065] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:40:26.195] [WARN] console - token is lost !
+[2017-06-22 16:41:26.550] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:41:37.667] [INFO] console - 3
+[2017-06-22 16:41:37.668] [INFO] console - [ 'error: Error: ENOENT: no such file or directory, open \'D:\\run\\demo\\smile\\data\\user.json\'' ]
+[2017-06-22 16:41:37.729] [WARN] console - token is lost !
+[2017-06-22 16:44:41.372] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:44:50.693] [INFO] console - 3
+[2017-06-22 16:44:50.695] [INFO] console - 222 [ 'error: Error: ENOENT: no such file or directory, open \'D:\\run\\demo\\smile\\data\\user.json\'' ]
+[2017-06-22 16:44:50.726] [WARN] console - token is lost !
+[2017-06-22 16:45:36.180] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:45:43.504] [INFO] console - 3
+[2017-06-22 16:45:43.505] [INFO] console - null
+[2017-06-22 16:45:43.506] [INFO] console - [ 'error: Error: ENOENT: no such file or directory, open \'D:\\run\\demo\\smile\\data\\user.json\'' ]
+[2017-06-22 16:45:43.507] [INFO] console - 222 [ 'error: Error: ENOENT: no such file or directory, open \'D:\\run\\demo\\smile\\data\\user.json\'' ]
+[2017-06-22 16:45:43.550] [WARN] console - token is lost !
+[2017-06-22 16:46:29.634] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:47:22.746] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:47:30.720] [INFO] console - 0 '3'
+[2017-06-22 16:47:30.722] [INFO] console - 1 null
+[2017-06-22 16:47:30.723] [INFO] console - 2 [ 'error: Error: ENOENT: no such file or directory, open \'D:\\run\\demo\\smile\\data\\user.json\'' ]
+[2017-06-22 16:47:30.749] [WARN] console - token is lost !
+[2017-06-22 16:47:50.255] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 16:47:58.543] [INFO] console - 0 '3'
+[2017-06-22 16:47:58.546] [INFO] console - 1 null
+[2017-06-22 16:47:58.547] [INFO] console - 2 [ undefined ]
+[2017-06-22 16:47:58.590] [WARN] console - token is lost !
+[2017-06-22 17:08:37.215] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:09:28.679] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:18:23.225] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:18:30.365] [INFO] console - 3
+[2017-06-22 17:19:34.964] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:19:42.239] [INFO] console - 3
+[2017-06-22 17:20:31.182] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:20:35.679] [INFO] console - 111 null
+[2017-06-22 17:21:50.147] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:21:57.913] [INFO] console - 111 null
+[2017-06-22 17:21:57.915] [INFO] console - 222 '[\r\n    {\r\n        "name": "12cat",\r\n        "password": "3.14"\r\n    },\r\n    {\r\n        "name": "12cat2",\r\n        "password": "3.14"\r\n    }\r\n]'
+[2017-06-22 17:21:57.916] [INFO] console - [ { name: '12cat', password: '3.14' },
+  { name: '12cat2', password: '3.14' } ]
+[2017-06-22 17:21:57.930] [INFO] console - 0 '[{"name":"12cat","password":"3.14"},{"name":"12cat2","password":"3.14"},{"username":"12cat1","password":"3.14"}]'
+[2017-06-22 17:21:57.931] [INFO] console - 1 { Error: ENOENT: no such file or directory, open 'D:\run\demo\smile\data\user.json'
+    at Error (native)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\run\\demo\\smile\\data\\user.json' }
+[2017-06-22 17:21:57.936] [INFO] console - 2 undefined
+[2017-06-22 17:23:03.861] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:25:59.231] [INFO] console - 111 null
+[2017-06-22 17:25:59.233] [INFO] console - 222 '[\r\n    {\r\n        "name": "12cat",\r\n        "password": "3.14"\r\n    },\r\n    {\r\n        "name": "12cat2",\r\n        "password": "3.14"\r\n    }\r\n]'
+[2017-06-22 17:25:59.233] [INFO] console - [ { name: '12cat', password: '3.14' },
+  { name: '12cat2', password: '3.14' } ]
+[2017-06-22 17:25:59.245] [INFO] console - 0 '[{"name":"12cat","password":"3.14"},{"name":"12cat2","password":"3.14"},{"username":"12cat1","password":"3.14"}]'
+[2017-06-22 17:25:59.247] [INFO] console - 1 null
+[2017-06-22 17:25:59.247] [INFO] console - 2 undefined
+[2017-06-22 17:25:59.298] [WARN] console - token is lost !
+[2017-06-22 17:27:24.448] [INFO] console - 111 null
+[2017-06-22 17:27:24.448] [INFO] console - 222 '[{"name":"12cat","password":"3.14"},{"name":"12cat2","password":"3.14"},{"username":"12cat1","password":"3.14"}]'
+[2017-06-22 17:30:49.725] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:30:56.739] [WARN] console - token is lost !
+[2017-06-22 17:31:15.643] [WARN] console - token is lost !
+[2017-06-22 17:32:41.423] [INFO] console - WELL COME TO：localhost:5000
+[2017-06-22 17:32:52.203] [INFO] console - [ { name: '12cat', password: '3.14' },
+  { name: '12cat2', password: '3.14' },
+  { username: '12cat1', password: '3.14' },
+  { username: '12cat', password: '3.14' } ]
+[2017-06-22 17:33:08.137] [INFO] console - [ { name: '12cat', password: '3.14' },
+  { name: '12cat2', password: '3.14' },
+  { username: '12cat1', password: '3.14' },
+  { username: '12cat', password: '3.14' } ]
+[2017-06-22 17:33:08.176] [WARN] console - token is lost !
+[2017-06-22 17:34:27.001] [INFO] console - [ { username: '12cat', password: '3.14' } ]
+[2017-06-22 17:34:38.028] [INFO] console - [ { username: '12cat', password: '3.14' } ]
+[2017-06-22 17:34:38.084] [WARN] console - token is lost !
+[2017-06-22 17:36:57.735] [WARN] console - token is lost !
+[2017-06-22 17:50:57.130] [WARN] console - token is lost !
+[2017-06-22 17:51:00.421] [WARN] console - token is lost !

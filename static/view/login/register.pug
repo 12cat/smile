@@ -2,25 +2,30 @@ doctype html
 
 html(lang="en")
 	head
-		title login
+		title register
 		link(rel="icon" href="static/img/orc.ico" type="img/x-icon")
 		link(rel="stylesheet" href="static/css/common.css")
 	body
 		.login-box
-			.login-title Login
+			.login-title register
 			.form-row#username
 				label 用户名：
 				input.w250(type="text")
 				span.error.mar-l5(style="display:none;")
 			.form-row#password
-				label 密码：
+				label 用户密码：
+				input.w250(type="password")
+				span.error.mar-l5(style="display:none;")
+			.form-row#confirm
+				label 确认密码：
 				input.w250(type="password")
 				span.error.mar-l5(style="display:none;")
 			.form-row.center#error
 				span.error(style="display:none;")
 			.form-row.center(style="position:relative;")
 				button.btn#submit 提交
-				.link#register(style="position:absolute;top:10px;left:320px;") 注册
+				.link#login(style="position:absolute;top:10px;left:320px;") 登录
 
 	script(src="static/js/plugins/jquery-1.8.3.js")
-	script(src="static/js/page/login/login.js")
+	script(src="static/js/plugins/rifle.js")
+	script(src="static/js/page/login/register.js")
