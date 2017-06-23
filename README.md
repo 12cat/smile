@@ -392,10 +392,9 @@ emitter.on('someEvent', function(arg1, arg2) {
 // 事件发射
 emitter.emit('someEvent', 'byvoid', 1991);
 ```
-**运行结果：**
-``` javaScript
-listener1 byvoid 1991
-listener2 byvoid 1991
+```
+> listener1 byvoid 1991
+> listener2 byvoid 1991
 ```
 
 > EventEmitter常用的API。
