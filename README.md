@@ -135,7 +135,6 @@
       ]
     }
 ```
-
 ``` javaScript
     // app.js
     var log4js = require('log4js');
@@ -320,9 +319,21 @@ app.post('/request2', function(req, res) {
 
 ### util 工具包
 
-1. 继承 inherits
+> fs
 
-> 只继承 prototype 部分
+``` javaScript
+var fs = require('fs');
+
+fs.readFile('/data/user.json, 'utf-8', function(err, data) {
+    // JSON.parse(data)
+});
+
+fs.writeFile('/data/user.json', text, 'utf-8', function(err) {
+    // ...
+});
+```
+
+> 继承 inherits（只继承 prototype 部分）
 
 ``` javaScript
 var util = require('util');
@@ -355,13 +366,12 @@ var objSub = new Sub();
 objSub.showName();
 console.log(objSub);
 ```
-**运行结果：**
-``` javaScript
-base
-Hello base
-{ name: 'base', base: 1991, sayHello: [Function] }
-sub
-{ name: 'sub' }
+```
+> base
+> Hello base
+> { name: 'base', base: 1991, sayHello: [Function] }
+> sub
+> { name: 'sub' }
 ```
 
 ### 事件发射

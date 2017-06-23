@@ -1,0 +1,127 @@
+extends layout
+
+block style
+	link(rel="stylesheet" href="static/css/common.css")
+
+block content
+	h3 缩进
+	p: span 换行
+	p
+		span 换行
+
+	h3 多行文本
+	p
+		| 多行
+		| 文本
+	p.
+		多行
+		文本
+
+	h3 注释
+	// 单行注释，在html中显示为\<!-- --\>
+	//- 单行注释，在html中不显示
+	//
+		多行注释
+		在html中显示为\<!-- --\>
+	//-
+		多行注释
+		在html中不显示
+
+	h3 变量
+	-var str = 'http://www.baidu.com';
+	-var xss = '&lt;span&gt;XSS&lt;\span&gt;';
+	-var arr = [1, 2, 3, 4, 5];
+	-var obj = {'type': 'text', 'name': '12cat'};
+	ul
+		li= xss
+		li #{xss}
+		li!= xss
+		li !{xss}
+		li
+			a(href=str+'/maps') 百度地图
+		li: input(tupe='#{obj.type}', value='#{obj.name}')
+
+	h3 逻辑
+	table
+		tr
+			th 1. if/else
+			th 2. unless/else
+			th 3. case...when
+			th 4. for loops
+			th 5. Each loops
+			th 6. while loops
+		tr
+			-var t1 = 1;
+			-if (t1 === 1) {
+				td t1=1
+			-} else {
+				td t1!=1
+			-}
+			
+			-var t2 = 2;
+			unless t2===2
+				td t2!=2
+			else
+				td t2=2
+
+			-var t3 = 3;
+			case t3
+				when 1
+					td t3=1
+				when 2
+					td t3=2
+				default
+					td t3=#{t3}
+
+			td
+				-var t4 = ['A', 'B', 'C'];
+				-for (var i=0; i<t4.length; i++) {
+					span= t4[i]
+				-}
+
+			td
+				-var t5 = ['A', 'B', 'C'];
+				each item in t5
+					span #{item}&nbsp;
+				br
+				each t, i in t5
+					span #{i}=#{t}&nbsp;
+				br
+				- t5 = {'001':'A', '002':'B', '003':'C'};
+				each t, i in t5
+					span #{i}=#{t}&nbsp;
+
+			td
+				-var t6 = ['A', 'B', 'C'];
+				-var i = 0;
+				while i < t6.length
+					span #{t6[i++]}
+
+	h3 mixins
+	ul
+		li
+			mixin fun1(username, password)
+				span username: #{username}, password: #{password}
+			+fun1('12cat', '3.14')
+		li
+			mixin fun2
+				span fun2
+			+fun2
+		li
+			mixin fun3(str)
+				label #{str}：
+				block
+			+fun3('12cat')
+				span 代替body
+		li
+			mixin fun4()
+				-var args = [].slice.call(arguments);
+				for i in args
+					span= i
+			+fun4('A', 'B', 'C')
+
+append content
+	h5 ————append
+
+prepend content
+	h5 ————prepend

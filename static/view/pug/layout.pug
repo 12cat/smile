@@ -1,0 +1,17 @@
+doctype html
+
+html(lang="en")
+	head
+		title pug demo
+		link(rel="icon" href="static/img/orc.ico" type="img/x-icon")
+		block style
+			link(rel="stylesheet" href="style.css")
+		style
+			include style.css
+	body
+		include top
+
+		block content
+			p content
+
+		include footer.html

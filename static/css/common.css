@@ -51,7 +51,13 @@ td span.click {
 	text-align: center;
 	font-size: 24px;
 	line-height: 35px;
-	text-shadow: 0 2px 2px #000;
+	text-shadow: 0 2px 2px #3399ff;
+	color: #3399ff;
+}
+.login-link {
+	position: absolute;
+	top: 10px;
+	left: 320px;
 }
 
 
@@ -232,7 +238,9 @@ li.active .menu-child {
 .btn:hover {
 	background-color: #3388ee;
 }
-
+.relative {
+	position: relative;
+}
 .link {
 	font-size: 12px;
 	color: #3399ff;
