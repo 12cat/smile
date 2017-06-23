@@ -277,6 +277,9 @@ li.active .menu-child {
 }
 
 /* 尺寸 */
+.w100 {
+	width: 100px;
+}
 .w250 {
 	width: 250px;
 }
