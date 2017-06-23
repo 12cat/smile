@@ -1,7 +1,5 @@
 # smile
 
-# 常用方法
-
 ### 调试工具（监测代码更新，自动重启服务）
 
 - 安装：`$ npm install -g supervisor`
