@@ -29,15 +29,15 @@ block content
 
 	h3 变量
 	-var str = 'http://www.baidu.com';
-	-var xss = '&lt;span&gt;XSS&lt;\span&gt;';
+	-var xss = '<script>alert(123)</script>';
 	-var arr = [1, 2, 3, 4, 5];
 	-var obj = {'type': 'text', 'name': '12cat'};
 	ul
-		li= xss
-		li #{xss}
-		li!= xss
-		li !{xss}
-		li
+		li.li1= xss
+		li.li2 #{xss}
+		li.li3!= xss
+		li.li4 !{xss}
+		li.li1
 			a(href=str+'/maps') 百度地图
 		li: input(tupe='#{obj.type}', value='#{obj.name}')
 

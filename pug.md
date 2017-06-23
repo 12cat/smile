@@ -83,12 +83,17 @@
 > 变量
 
 ``` pug
-    -var xss = '&lt;span&gt;XSS&lt;span&gt;';
+    -var xss1 = '&lt;script&gt;alert(123)&lt;script&gt;';
+    -var xss2 = '<script>alert(123)</script>';
     
-    span= xss     //- &lt;span&gt;XSS&lt;span&gt;
-    span #{xss}   //- &lt;span&gt;XSS&lt;span&gt;
-    span!= xss    //- <span>XSS<span>
-    span !{xss}   //- <span>XSS<span>
+    p= xss1     //- 防止XSS攻击，&lt;script&gt;alert(123)&lt;script&gt;
+    p= xss2     //- 防止XSS攻击，<script>alert(123)</script>
+    p #{xss1}   //- 防止XSS攻击，&lt;script&gt;alert(123)&lt;script&gt;
+    p #{xss2}   //- 防止XSS攻击，<script>alert(123)</script>
+    p!= xss1    //- XSS攻击风险，<script>alert(123)</script>
+    p!= xss2    //- XSS攻击风险，运行脚本
+    p !{xss1}   //- XSS攻击风险，<script>alert(123)</script>
+    p !{xss2}   //- XSS攻击风险，运行脚本
     
     -var str = 'http://www.baidu.com';
     -var obj = {'type': 'text', 'name': '12cat'};

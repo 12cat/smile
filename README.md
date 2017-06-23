@@ -324,7 +324,7 @@ app.post('/request2', function(req, res) {
 ``` javaScript
 var fs = require('fs');
 
-fs.readFile('/data/user.json, 'utf-8', function(err, data) {
+fs.readFile('/data/user.json', 'utf-8', function(err, data) {
     // JSON.parse(data)
 });
 
