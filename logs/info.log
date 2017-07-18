@@ -1292,3 +1292,20 @@ malformed each
 [2017-06-23 16:03:57.325] [WARN] console - token is lost !
 [2017-06-23 17:12:46.737] [INFO] console - WELL COME TO：localhost:5000
 [2017-06-23 17:12:48.684] [WARN] console - token is lost !
+[2017-07-18 11:28:59.989] [INFO] console - WELL COME TO：localhost:5000
+[2017-07-18 11:31:11.562] [INFO] console - WELL COME TO：localhost:5000
+[2017-07-18 11:31:24.117] [WARN] console - token is lost !
+[2017-07-18 11:31:25.148] [WARN] console - token is lost !
+[2017-07-18 11:31:25.193] [WARN] console - token is lost !
+[2017-07-18 12:04:03.758] [WARN] console - token is lost !
+[2017-07-18 14:04:49.929] [WARN] console - token is lost !
+[2017-07-18 14:12:28.535] [INFO] console - WELL COME TO：localhost:5000
+[2017-07-18 14:12:30.741] [WARN] console - token is lost !
+[2017-07-18 14:15:45.535] [INFO] console - WELL COME TO：localhost:5000
+[2017-07-18 14:15:48.187] [WARN] console - token is lost !
+[2017-07-18 14:15:54.993] [INFO] console - [ { race: '', type: '', armor: '', position: '' }
+[2017-07-18 14:17:16.801] [INFO] console - WELL COME TO：localhost:5000
+[2017-07-18 14:17:18.892] [WARN] console - token is lost !
+[2017-07-18 14:17:24.461] [INFO] console - 111 '['
+[2017-07-18 14:18:34.482] [INFO] console - WELL COME TO：localhost:5000
+[2017-07-18 14:18:35.397] [WARN] console - token is lost !
