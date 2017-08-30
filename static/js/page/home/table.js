@@ -12,6 +12,22 @@ $(function() {
 		init: function() {
 			var self = this;
 
+			$('#logout').click(function() {
+				rifle.action({
+				'type': 'post',
+				'url': '/request/login/logout',
+				'param': '',
+				'cache': false,
+				'urlFlag': false,
+				'callback': function(result) {
+					if (result.success === 1) {
+						location.href = '/login';
+					} else {
+						alert('退出登录失败！');
+					}
+				}
+			});
+			});
 			$('#query').click(function() {
 				self.getData();
 			});

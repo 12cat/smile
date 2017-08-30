@@ -1309,3 +1309,12 @@ malformed each
 [2017-07-18 14:17:24.461] [INFO] console - 111 '['
 [2017-07-18 14:18:34.482] [INFO] console - WELL COME TO：localhost:5000
 [2017-07-18 14:18:35.397] [WARN] console - token is lost !
+[2017-08-30 09:55:13.616] [INFO] console - WELL COME TO：localhost:5000
+[2017-08-30 10:02:33.235] [INFO] console - WELL COME TO：localhost:5000
+[2017-08-30 10:02:35.432] [WARN] console - token is lost !
+[2017-08-30 10:02:49.053] [WARN] console - token is lost !
+[2017-08-30 10:03:12.872] [WARN] console - token is lost !
+[2017-08-30 10:03:55.622] [INFO] console - WELL COME TO：localhost:5000
+[2017-08-30 10:04:36.858] [INFO] console - WELL COME TO：localhost:5000
+[2017-08-30 10:04:39.180] [WARN] console - token is lost !
+[2017-08-30 10:04:47.146] [WARN] console - token is lost !
