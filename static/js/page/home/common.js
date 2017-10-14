@@ -20,7 +20,7 @@ $(function() {
 				if (result.success === 0) {
 					console.log('退出登录失败！');
 				} else {
-					location.href = '/login';
+					location.reload();
 				}
 			});
 		}

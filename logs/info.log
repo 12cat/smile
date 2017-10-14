@@ -1334,3 +1334,61 @@ malformed each
 [2017-09-03 12:05:57.035] [WARN] console - token is lost !
 [2017-09-03 12:06:07.200] [WARN] console - token is lost !
 [2017-09-03 12:06:53.929] [WARN] console - token is lost !
+[2017-10-14 22:49:28.645] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 22:50:12.781] [WARN] console - token is lost !
+[2017-10-14 22:50:19.557] [WARN] console - token is lost !
+[2017-10-14 22:50:34.612] [WARN] console - token is lost !
+[2017-10-14 22:50:43.963] [WARN] console - token is lost !
+[2017-10-14 22:53:41.516] [WARN] console - token is lost !
+[2017-10-14 22:55:53.680] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:04:39.950] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:04:42.534] [WARN] console - token is lost !
+[2017-10-14 23:06:06.185] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:06:10.659] [WARN] console - token is lost !
+[2017-10-14 23:06:32.162] [WARN] console - token is lost !
+[2017-10-14 23:06:38.338] [WARN] console - token is lost !
+[2017-10-14 23:06:46.310] [WARN] console - token is lost !
+[2017-10-14 23:07:05.339] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:07:19.302] [WARN] console - token is lost !
+[2017-10-14 23:07:26.073] [WARN] console - token is lost !
+[2017-10-14 23:07:38.753] [WARN] console - token is lost !
+[2017-10-14 23:12:42.764] [WARN] console - token is lost !
+[2017-10-14 23:12:56.735] [WARN] console - token is lost !
+[2017-10-14 23:13:09.237] [WARN] console - token is lost !
+[2017-10-14 23:13:54.498] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:13:56.964] [WARN] console - token is lost !
+[2017-10-14 23:14:01.048] [INFO] console - 1 '/home'
+[2017-10-14 23:14:16.996] [WARN] console - token is lost !
+[2017-10-14 23:14:23.006] [INFO] console - 1 '/login'
+[2017-10-14 23:17:57.159] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:19:23.420] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:19:25.262] [WARN] console - token is lost !
+[2017-10-14 23:19:25.262] [INFO] console - 12 '/home'
+[2017-10-14 23:19:51.108] [WARN] console - token is lost !
+[2017-10-14 23:19:51.108] [INFO] console - 12 '/login'
+[2017-10-14 23:21:03.635] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:21:29.721] [WARN] console - token is lost !
+[2017-10-14 23:21:29.722] [INFO] console - 12 '/login'
+[2017-10-14 23:21:43.845] [WARN] console - token is lost !
+[2017-10-14 23:21:43.845] [INFO] console - 12 '/table'
+[2017-10-14 23:21:58.783] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:22:12.123] [WARN] console - token is lost !
+[2017-10-14 23:22:12.123] [INFO] console - 12 '/login'
+[2017-10-14 23:22:28.828] [WARN] console - token is lost !
+[2017-10-14 23:22:28.829] [INFO] console - 12 '/login'
+[2017-10-14 23:23:54.047] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:24:45.174] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:24:46.193] [WARN] console - token is lost !
+[2017-10-14 23:24:46.193] [INFO] console - 12 '/home'
+[2017-10-14 23:24:58.293] [WARN] console - token is lost !
+[2017-10-14 23:24:58.293] [INFO] console - 12 '/table'
+[2017-10-14 23:25:06.839] [WARN] console - token is lost !
+[2017-10-14 23:25:06.840] [INFO] console - 12 '/login'
+[2017-10-14 23:26:04.420] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:30:23.053] [INFO] console - WELL COME TO：localhost:5000
+[2017-10-14 23:30:46.443] [WARN] console - token is lost !
+[2017-10-14 23:30:46.443] [INFO] console - 12 '/table'
+[2017-10-14 23:30:56.483] [WARN] console - token is lost !
+[2017-10-14 23:30:56.483] [INFO] console - 12 '/table'
+[2017-10-14 23:31:08.465] [WARN] console - token is lost !
+[2017-10-14 23:31:08.466] [INFO] console - 12 '/home'
