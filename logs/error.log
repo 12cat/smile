@@ -1152,3 +1152,220 @@ malformed each
     at lex (D:\run\demo\smile\node_modules\pug-lexer\index.js:12:42)
     at Object.load.string.lex (D:\run\demo\smile\node_modules\pug\lib\index.js:99:27)
     at Function.loadString [as string] (D:\run\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-17 18:38:01.174] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:7:8
+    5| 	body
+    6| 		a(id="111" class="222", href="www.baidu.com") 点我
+  > 7| 		a#333.444(href="www.baidu.com") 再点我
+--------------^
+
+Class names must begin with "-", "_" or a letter.
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.className (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:416:12)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1355:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+    at Function.loadString [as string] (/Users/dull/coder/demo/smile/node_modules/pug-load/index.js:44:24)
+[2018-04-17 18:38:53.500] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:7:8
+    5| 	body
+    6| 		a(id="111" class="222", href="www.baidu.com") 点我
+  > 7| 		a#333.444(href="www.baidu.com") 再点我
+--------------^
+
+Class names must begin with "-", "_" or a letter.
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.className (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:416:12)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1355:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+    at Function.loadString [as string] (/Users/dull/coder/demo/smile/node_modules/pug-load/index.js:44:24)
+[2018-04-17 18:42:37.227] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:8:30
+    6| 		a(id="111" class="222", href="www.baidu.com") 点我
+    7| 		br
+  > 8| 		a#333(href="www.baidu.com").444 再点我
+------------------------------------^
+
+Class names must begin with "-", "_" or a letter.
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.className (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:416:12)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1355:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+    at Function.loadString [as string] (/Users/dull/coder/demo/smile/node_modules/pug-load/index.js:44:24)
+[2018-04-17 18:43:34.549] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:8:20
+    6| 		a(id="111" class="222", href="www.baidu.com") 点我
+    7| 		br
+  > 8| 		a#333(class=["a" "b" "c"] href="www.baidu.com") 再点我
+--------------------------^
+
+Syntax Error: Unexpected token
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.assertExpression (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:86:12)
+    at Lexer.attrs (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1089:18)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1356:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+[2018-04-17 18:48:02.582] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:8:33
+    6| 		a(id="aaa" class="bbb", href="www.baidu.com") 点我
+    7| 		br
+  > 8| 		a#ccc.ddd(class="eee" href=url}) 再点我
+---------------------------------------^
+
+Mismatched Bracket: }
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.bracketExpression (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:236:14)
+    at Lexer.attrs (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1011:24)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1356:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+[2018-04-17 18:48:17.647] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:8:30
+    6| 		a(id="aaa" class="bbb", href="www.baidu.com") 点我
+    7| 		br
+  > 8| 		a#ccc.ddd(class="eee" href=#{url}) 再点我
+------------------------------------^
+
+Syntax Error: Unexpected character '#'
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.assertExpression (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:86:12)
+    at Lexer.attrs (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1089:18)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1356:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+[2018-04-17 18:51:47.424] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:13:3
+    11| 		//- 转义
+    12| 		div(escaped="<code>")
+  > 13| 		(unescaped!="<code>")
+----------^
+
+unexpected token "start-attributes"
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Parser.error (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:53:15)
+    at Parser.parseExpr (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:263:14)
+    at Parser.block (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:937:25)
+    at Parser.tag (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:1087:24)
+    at Parser.parseTag (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:988:17)
+    at Parser.parseExpr (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:208:21)
+    at Parser.block (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:937:25)
+    at Parser.tag (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:1087:24)
+    at Parser.parseTag (/Users/dull/coder/demo/smile/node_modules/pug-parser/index.js:988:17)
+[2018-04-17 19:03:51.762] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:28:7
+    26| 		- var arr = ['aaa', 'bbb', 'ccc']
+    27| 		ul
+  > 28| 			for (var x=0; x<arr.length; x++)
+--------------^
+    29| 				li #{arr[x]}
+    30| 
+
+malformed each
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.each (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:912:12)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1347:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+    at Function.loadString [as string] (/Users/dull/coder/demo/smile/node_modules/pug-load/index.js:44:24)
+[2018-04-17 19:05:33.053] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:27:7
+    25| 		//- 循环
+    26| 		ul
+  > 27| 			for (var i=0; i<5; i++)
+--------------^
+    28| 				li #{i} 输出
+    29| 		- var arr = ['aaa', 'bbb', 'ccc']
+    30| 		ul
+
+malformed each
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.each (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:912:12)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1347:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+    at Function.loadString [as string] (/Users/dull/coder/demo/smile/node_modules/pug-load/index.js:44:24)
+[2018-04-17 19:05:57.445] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:31:4
+    29| 		- var arr = ['aaa', 'bbb', 'ccc']
+    30| 		ul
+  > 31| 			- each item in arr
+-----------^
+    32| 				li item
+    33| 
+
+Pug each and for should no longer be prefixed with a dash ("-"). They are pug keywords and not part of JavaScript.
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.each (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:915:12)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1347:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+    at Function.loadString [as string] (/Users/dull/coder/demo/smile/node_modules/pug-load/index.js:44:24)
+[2018-04-17 19:07:04.817] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:15:6
+    13| 		//- 转义
+    14| 		p
+  > 15| 			= <code>
+-------------^
+    16| 		p= '<dode>'
+    17| 
+    18| 		//- 分支
+
+Syntax Error: Unexpected token
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.assertExpression (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:86:12)
+    at Lexer.code (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:971:28)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1352:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
+[2018-04-17 19:32:19.967] [ERROR] console - Error: /Users/dull/coder/demo/smile/static/view/pug/demo0page.pug:38:11
+    36| 
+    37| 		//- 转义
+  > 38| 		p= str		// 
+------------------^
+    39| 		//- p!= str
+    40| 		//- p #{str}
+    41| 		//- p !{str}
+
+Syntax Error: Line comments not allowed in an expression
+    at makeError (/Users/dull/coder/demo/smile/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:58:15)
+    at Lexer.assertExpression (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:86:12)
+    at Lexer.code (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:971:28)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.advance (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1352:15)
+    at Lexer.callLexerFunction (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1319:23)
+    at Lexer.getTokens (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:1375:12)
+    at lex (/Users/dull/coder/demo/smile/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/Users/dull/coder/demo/smile/node_modules/pug/lib/index.js:99:27)
