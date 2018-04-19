@@ -10656,3 +10656,803 @@ Syntax Error: Line comments not allowed in an expression
 [2018-04-17 19:49:10.085] [WARN] console - token is lost !
 [2018-04-17 19:49:11.089] [WARN] console - token is lost !
 [2018-04-17 19:49:11.101] [WARN] console - token is lost !
+[2018-04-18 11:33:26.738] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-18 17:29:21.375] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-18 17:29:32.480] [WARN] console - token is lost !
+[2018-04-18 17:35:14.859] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:9:40
+    7| 		// 注释，我会在html中显示<!- sdfsdf ->
+    8| 		//- id class 文本
+  > 9| 		#id.class(type="123" style={color:red; background:#eee}) wenben
+----------------------------------------------^
+    10| 
+
+Syntax Error: Unexpected token
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.assertExpression (F:\coding\demo\smile\node_modules\pug-lexer\index.js:86:12)
+    at Lexer.attrs (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1089:18)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1356:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+[2018-04-18 17:35:37.965] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:9:40
+    7| 		// 注释，我会在html中显示<!- sdfsdf ->
+    8| 		//- id class 文本
+  > 9| 		#id.class(type="123" style={color:red; background:"#eee"}) wenben
+----------------------------------------------^
+    10| 
+
+Syntax Error: Unexpected token
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.assertExpression (F:\coding\demo\smile\node_modules\pug-lexer\index.js:86:12)
+    at Lexer.attrs (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1089:18)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1356:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+[2018-04-18 17:35:58.713] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:9:42
+    7| 		// 注释，我会在html中显示<!- sdfsdf ->
+    8| 		//- id class 文本
+  > 9| 		#id.class(type="123" style={color:"red"; background:"#eee"}) wenben
+------------------------------------------------^
+    10| 
+
+Syntax Error: Unexpected token
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.assertExpression (F:\coding\demo\smile\node_modules\pug-lexer\index.js:86:12)
+    at Lexer.attrs (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1089:18)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1356:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+[2018-04-18 17:36:02.959] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:9:42
+    7| 		// 注释，我会在html中显示<!- sdfsdf ->
+    8| 		//- id class 文本
+  > 9| 		#id.class(type="123" style={color:"red"; background:"#eee"}) wenben
+------------------------------------------------^
+    10| 
+
+Syntax Error: Unexpected token
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.assertExpression (F:\coding\demo\smile\node_modules\pug-lexer\index.js:86:12)
+    at Lexer.attrs (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1089:18)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1356:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+[2018-04-18 17:44:46.885] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:32:1
+    30| 		- if b==0
+    31| 			h1 00000
+  > 32| 		 else 
+--------^
+    33| 			h1 1111
+    34| 
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 17:45:06.661] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:32:1
+    30| 		- if b==0
+    31| 			h1 00000
+  > 32| 		 - else 
+--------^
+    33| 			h1 1111
+    34| 
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 17:50:21.887] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:47:4
+    45| 		-var arr = [1, 33, 4, 55]
+    46| 		ul
+  > 47| 			-for i in arr
+-----------^
+    48| 				li= i + 'afsdfdsf'
+
+Pug each and for should no longer be prefixed with a dash ("-"). They are pug keywords and not part of JavaScript.
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.each (F:\coding\demo\smile\node_modules\pug-lexer\index.js:915:12)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1347:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 17:57:18.238] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-18 17:57:21.597] [WARN] console - token is lost !
+[2018-04-18 19:38:41.506] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:22:1
+    20| 			| 123123123123
+    21| 			| 234324324
+  > 22| 			 span 55555
+--------^
+    23| 			| span
+    24| 		p.
+    25| 			sdfsdf
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:43:19.979] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:43:27.146] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:43:29.133] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:43:31.980] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:43:35.750] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-18 19:43:36.643] [WARN] console - token is lost !
+[2018-04-18 19:43:45.328] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:44:04.422] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		-var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:44:16.787] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    //-else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:44:52.969] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:69:1
+    67| 		+getname('dulonglong')
+    68| 		- var num = 1
+  > 69| 	    if num==1
+--------^
+    70| 	        span console log one
+    71| 	    else if num==2
+    72| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:45:13.807] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 		
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:45:14.699] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 		
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 	        span console log one
+    72| 	    else if num==2
+    73| 	        span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:45:47.460] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 			span console log one
+    72| 	    else if num==2
+    73| 			span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:45:54.644] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 			
+    69| 		- var num = 1
+  > 70| 	    if num==1
+--------^
+    71| 			span console log one
+    72| 	    else if num==2
+    73| 			span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-18 19:46:09.750] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:70:1
+    68| 
+    69| 		- var num1 = 1
+  > 70| 	    if num1==1
+--------^
+    71| 			span console log one
+    72| 	    else if num1==2
+    73| 			span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:02:37.216] [WARN] console - token is lost !
+[2018-04-19 10:02:44.225] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="text" value="123" style={color:"red", background:"#eee"}) text
+  > 7|     input(type="text",value="123",style={color:"red", background:"#eee"}) text
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:03:41.301] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="text" value="123" style={color:"red", background:"#eee"}) text
+  > 7|     input(type="text",value="123",style={color:"red", background:"#eee"}) text
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:03:42.998] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="text" value="123" style={color:"red", background:"#eee"}) text
+  > 7|     input(type="text",value="123",style={color:"red", background:"#eee"}) text
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:03:50.708] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-19 10:03:51.547] [WARN] console - token is lost !
+[2018-04-19 10:03:58.126] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="text" value="123" style={color:"red", background:"#eee"}) text
+  > 7|     input(type="text",value="123",style={color:"red", background:"#eee"}) text
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:04:01.046] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="text" value="123" style={color:"red", background:"#eee"}) text
+  > 7|     input(type="text",value="123",style={color:"red", background:"#eee"}) text
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:04:17.046] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="text" value="123" style={color:"red", background:"#eee"})
+  > 7|     input(type="text",value="123",style={color:"red", background:"#eee"})
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:04:20.707] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="text" value="123" style={color:"red", background:"#eee"})
+  > 7|     	input(type="text",value="123",style={color:"red", background:"#eee"})
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:04:34.958] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="test" value="123" style={color:"red", background:"#eee"})
+  > 7|     	input(type="text",value="123",style={color:"red", background:"#eee"})
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:04:39.334] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:7:1
+    5| 		h1 hello
+    6| 		input(type="test" value="123" style={color:"red", background:"#eee"})
+  > 7|     	input(type="test",value="123",style={color:"red", background:"#eee"})
+-------^
+    8| 
+    9| 		- var str = "<script>alert(234);</script>"
+    10| 		p= str
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:05:53.794] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:66:1
+    64| 
+    65| 		- var num1 = 1
+  > 66| 	    if num1==1
+--------^
+    67| 			span console log one
+    68| 	    else if num1==2
+    69| 			span console log two
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:06:18.125] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:6
+
+input is a self closing element: <input/> but contains nested content.
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Compiler.error (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:92:15)
+    at Compiler.visitTag (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:559:14)
+    at Compiler.visitNode (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:307:37)
+    at Compiler.visit (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:296:10)
+    at Compiler.visitBlock (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:379:12)
+    at Compiler.visitNode (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:307:37)
+    at Compiler.visit (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:296:10)
+    at Compiler.visitTag (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:568:12)
+    at Compiler.visitNode (F:\coding\demo\smile\node_modules\pug-code-gen\index.js:307:37)
+[2018-04-19 10:08:08.700] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:15:1
+    13| 
+    14| 		- var num = 1
+  > 15| 	    if num==1
+--------^
+    16| 	        span num = 1
+    17| 	    else if num==2
+    18| 	        span num = 2
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:08:15.328] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:15:1
+    13| 
+    14| 		- var num = 1
+  > 15| 	    -if num==1
+--------^
+    16| 	        span num = 1
+    17| 	    else if num==2
+    18| 	        span num = 2
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:08:21.884] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:15:1
+    13| 
+    14| 		- var num = 1
+  > 15| 	    -if num==1
+--------^
+    16| 	        span num = 1
+    17| 	    -else if num==2
+    18| 	        span num = 2
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:08:36.355] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:15:1
+    13| 
+    14| 		- var num1 = 1
+  > 15| 	    if num1==1
+--------^
+    16| 	        span num1 = 1
+    17| 	    else if num1==2
+    18| 	        span num1 = 2
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:12:55.565] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:16:1
+    14| 
+    15| 		- var num = 2
+  > 16| 	    case num
+--------^
+    17| 	        when 1
+    18| 	            break
+    19| 	        when 2
+
+Invalid indentation, you can use tabs or spaces but not both
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.indent (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1199:14)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1358:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+    at Function.loadString [as string] (F:\coding\demo\smile\node_modules\pug-load\index.js:44:24)
+[2018-04-19 10:37:48.478] [WARN] console - token is lost !
+[2018-04-19 10:38:11.936] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:15:9
+    13| 		p!= name
+    14| 		p !{name}
+  > 15| 		p(dat=#{name})
+----------------^
+    16| 
+    17| 
+    18| 		mixin getname(name)
+
+Syntax Error: Unexpected character '#'
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Lexer.error (F:\coding\demo\smile\node_modules\pug-lexer\index.js:58:15)
+    at Lexer.assertExpression (F:\coding\demo\smile\node_modules\pug-lexer\index.js:86:12)
+    at Lexer.attrs (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1089:18)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.advance (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1356:15)
+    at Lexer.callLexerFunction (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1319:23)
+    at Lexer.getTokens (F:\coding\demo\smile\node_modules\pug-lexer\index.js:1375:12)
+    at lex (F:\coding\demo\smile\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (F:\coding\demo\smile\node_modules\pug\lib\index.js:99:27)
+[2018-04-19 10:43:24.538] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:10:1
+    8| 			h3 #{name}
+    9| 			block
+  > 10| 				h4 123
+--------^
+    11| 		+getname('dull')
+    12| 		+getname('dulonglong')
+    13| 			h4 456
+
+unexpected token "indent"
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Parser.error (F:\coding\demo\smile\node_modules\pug-parser\index.js:53:15)
+    at Parser.parseExpr (F:\coding\demo\smile\node_modules\pug-parser\index.js:263:14)
+    at Parser.block (F:\coding\demo\smile\node_modules\pug-parser\index.js:937:25)
+    at Parser.parseMixin (F:\coding\demo\smile\node_modules\pug-parser\index.js:870:21)
+    at Parser.parseExpr (F:\coding\demo\smile\node_modules\pug-parser\index.js:210:21)
+    at Parser.block (F:\coding\demo\smile\node_modules\pug-parser\index.js:937:25)
+    at Parser.tag (F:\coding\demo\smile\node_modules\pug-parser\index.js:1087:24)
+    at Parser.parseTag (F:\coding\demo\smile\node_modules\pug-parser\index.js:988:17)
+    at Parser.parseExpr (F:\coding\demo\smile\node_modules\pug-parser\index.js:208:21)
+[2018-04-19 10:47:25.441] [ERROR] console - Error: F:\coding\demo\smile\static\view\pug\test.pug:10:1
+    8| 			h3 #{name}
+    9| 			block
+  > 10| 				h4 123
+--------^
+    11| 		+getname('dull')
+    12| 
+    13| 		+getname('dulonglong')
+
+unexpected token "indent"
+    at makeError (F:\coding\demo\smile\node_modules\pug-error\index.js:32:13)
+    at Parser.error (F:\coding\demo\smile\node_modules\pug-parser\index.js:53:15)
+    at Parser.parseExpr (F:\coding\demo\smile\node_modules\pug-parser\index.js:263:14)
+    at Parser.block (F:\coding\demo\smile\node_modules\pug-parser\index.js:937:25)
+    at Parser.parseMixin (F:\coding\demo\smile\node_modules\pug-parser\index.js:870:21)
+    at Parser.parseExpr (F:\coding\demo\smile\node_modules\pug-parser\index.js:210:21)
+    at Parser.block (F:\coding\demo\smile\node_modules\pug-parser\index.js:937:25)
+    at Parser.tag (F:\coding\demo\smile\node_modules\pug-parser\index.js:1087:24)
+    at Parser.parseTag (F:\coding\demo\smile\node_modules\pug-parser\index.js:988:17)
+    at Parser.parseExpr (F:\coding\demo\smile\node_modules\pug-parser\index.js:208:21)
+[2018-04-19 14:12:03.416] [WARN] console - token is lost !
+[2018-04-19 17:19:50.753] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-19 17:20:17.726] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-19 17:20:21.951] [WARN] console - token is lost !
+[2018-04-19 17:29:24.072] [INFO] console - WELL COME TO：localhost:5000
+[2018-04-19 17:29:27.344] [WARN] console - token is lost !
+[2018-04-19 17:29:58.041] [WARN] console - token is lost !
+[2018-04-19 17:30:07.759] [WARN] console - token is lost !

@@ -1,0 +1,17 @@
+html
+	head
+		title #{title}
+	body
+		h1 hello
+
+		mixin getname(name)
+			h3 #{name}
+			if block
+				block
+			else
+				h4 123
+		+getname('dull')
+
+		+getname('dulonglong')
+			h4 456
+

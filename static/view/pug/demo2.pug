@@ -22,7 +22,7 @@ html
 			| 111
 			| 222
 			span span
-			|333
+			| 333
 		p.
 			111
 			222
@@ -35,8 +35,8 @@ html
 
 
 		h3 不转义
-		p= str
-		p #{str}
+		p= str + '#123'
+		p #{str} #123
 		h3 转义
 		p!= str
 		p !{str}
