@@ -11,22 +11,22 @@ getData();
 
 function getParam() {
 	param = {
-		'race': $('#race').val(),
-		'type': $('#type').val(),
-		'armor': $('#armor').val(),
-		'position': $('#position').val()
+		race: $('#race').val(),
+		type: $('#type').val(),
+		armor: $('#armor').val(),
+		position: $('#position').val()
 	};
 }
 
 function getData() {
 	getParam();
 	rifle.action({
-		'type': 'get',
-		'url': '/request/home/tableData',
-		'param': param,
-		'cache': true,
-		'urlFlag': true,
-		'callback': function(result) {
+		type: 'get',
+		url: '/request/home/tableData',
+		param: param,
+		cache: true,
+		urlFlag: true,
+		callback: function(result) {
 			switch (result.success) {
 				case 0 :
 					location.reload();
